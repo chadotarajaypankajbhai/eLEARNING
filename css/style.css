@@ -1,0 +1,489 @@
+*{
+    margin: 0;
+    padding: 0;
+    outline: none;
+    list-style: none;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+.warpper{
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+.main{
+    width: 100%;
+    display: flex;
+    background-color: white;
+    color: cadetblue;
+    box-shadow: 0 0 10px cadetblue;
+    position: fixed;
+    top: 0;
+}
+.main-left{
+    width: 30%;
+    text-align: center;
+}
+.main-right{
+    width: 70%;
+    text-align: center;
+}
+.main-left h1{
+    display: inline;
+}
+.main-left i{
+    font-size: 40px;
+    padding:  20px;
+}
+.main-right ul{
+    padding: 20px 0;
+   
+}
+.main-right li{
+    display: inline;
+    padding: 0 20px;
+   
+}
+.main-right a{
+    font-size: 30px;
+    color: black;
+    text-decoration: none;
+    list-style: none;
+}
+.main-right a:hover{
+    color: cadetblue;
+}
+.main-b{
+    width: 100%;
+    display: flex;
+    background-image:linear-gradient(rgba(24, 24, 187, 0.39),rgba(77, 33, 199, 0.507)) ,url("/image/carousel-2.jpg") ;
+    padding: 80px 0;
+    padding-left: 80px;
+}
+.main-b-left{
+    width: 50%;
+    padding: 80px 0;
+}
+.main-b-right{
+    width: 50%;
+}
+.main-b-left h3{
+    color: cadetblue;
+}
+.main-b-left h1{
+    color: white;
+    font-size: 50px;
+    padding: 8px 0;
+}
+.main-b-left p{
+    color: white;
+}
+.main-b-left button{
+    background-color:cadetblue;
+    color: white;
+    border: none;
+    padding: 20px;
+    width: 25%;
+    margin:30px;
+    border-radius: 10px;
+}
+.main-b-left button:hover{
+    background-color: white;
+    color: cadetblue;
+    /* border: 2px solid cadetblue; */
+}
+.sec-a{
+    width: 100%;
+    display: flex;
+    margin: 50px 0;
+}
+.sec-a-one{
+    width: 25%;
+    text-align: center;
+    background-color: rgb(221, 236, 236);
+    padding: 50px 0;
+    margin: 20px 10px;
+    border-radius: 10px;
+}
+.sec-a-two{
+    width: 25%;
+    text-align: center;
+    background-color: rgb(221, 236, 236);
+    padding: 50px 0;
+    margin: 20px 10px;
+    border-radius: 10px;
+}
+.sec-a-three{
+    width: 25%;
+    text-align: center;
+    background-color:  rgb(221, 236, 236);
+    padding: 50px 0;
+    margin: 20px 10px;
+    border-radius: 10px;
+}
+.sec-a-four{
+    width: 25%;
+    text-align: center;
+    background-color: rgb(221, 236, 236);
+    padding: 50px 0;
+    margin: 20px 10px;
+    border-radius: 10px;
+}
+.sec-a-one i{
+    font-size: 70px;
+    color: cadetblue;
+    padding-bottom: 30px;
+}
+.sec-a-two i{
+    font-size: 70px;
+    color: cadetblue;
+    padding-bottom: 30px;
+}
+.sec-a-three i{
+    font-size: 70px;
+    color: cadetblue;
+    padding-bottom: 30px;
+}
+.sec-a-four i{
+    font-size: 70px;
+    color: cadetblue;
+    padding-bottom: 30px;
+}
+.sec-b{
+    width: 100%;
+    display: flex;
+    padding: 80px 0;
+}
+.sec-b-left{
+    width: 50%;
+}
+.sec-b-right{
+    width: 50%;
+    padding: 50px 50px 50px  50px;
+}
+.sec-b-left img{
+    width: 590px;
+    height: 550px;
+}
+.sec-b-right a{
+    color: cadetblue;
+    display: inline;
+    margin: 0 50px;
+}
+.sec-b-right h3{
+    color: cadetblue;
+    font-size: 50px;
+}
+.sec-b-right h1{
+    font-size: 50px;
+    padding: 10px 0;
+}
+.sec-b-right p{
+    padding: 8px 0;
+}
+.sec-b-right button{
+width: 30%;
+border: none;
+background-color: rgb(28, 149, 153);
+color: white;
+border-radius: 10px;
+padding: 12px;
+margin: 30px 0;
+}
+.sec-b-right button:hover{
+    background-color: white;
+    color: cadetblue;
+    border: 2px solid cadetblue;
+}
+.sec-c{
+    width: 100%;
+    text-align: center;
+    padding-top: 110px;
+}
+.sec-c h2{
+    color: cadetblue;
+    font-size: 40px;
+}
+.sec-c h1{
+    font-size: 50px;
+}
+.sec-d{
+    width: 100%;
+    display: flex;
+    padding: 50px 0;
+}
+.sec-d-left{
+    width: 50%;
+}
+.sec-d-right{
+    width: 50%;
+    padding: 20px 0;
+}
+.top{
+    width: 100%;
+    margin: 10px 0;
+}
+.bom{
+    width: 100%;
+    display: flex;
+}
+.bom-one{
+    width: 50%;
+    margin: 10px 0;
+}
+.bom-two{
+    width: 50%;
+    margin: 10px 0;
+}
+.top img{
+    width: 580px;
+    height: 250px;
+}
+.bom-one img{
+    width: 290px;
+    height: 250px;
+}
+.bom-two img{
+    width: 290px;
+    height: 250px;
+}
+.sec-d-right img{
+    width: 590px;
+    height: 500px;
+}
+.sec-x{
+    width: 100%;
+    padding: 80px 0;
+}
+.sec-e{
+    width: 100%;
+    text-align: center;
+    padding: 90px 0;
+}
+.sec-e h2{
+    color: cadetblue;
+    font-size: 40px;
+}
+.sec-e h1{
+    font-size: 50px;
+}
+.sec-f{
+    width: 100%;
+    display: flex;
+    margin: 50px 0;
+}
+.sec-f-one{
+    width: 33%;
+    /* border: 2px solid; */
+    text-align: center;
+    background-color: rgb(216, 231, 231);
+    border-radius: 20px;
+    margin: 0 10px;
+    padding: 30px 0;
+}
+.sec-f-two{
+    width: 33%;
+    text-align: center;
+    background-color: rgb(216, 231, 231);
+    border-radius: 20px;
+    margin: 0 10px;
+    padding: 30px 0;
+}
+.sec-f-three{
+    width: 34%;
+    text-align: center;
+    background-color: rgb(216, 231, 231);
+    border-radius: 20px;
+    margin: 0 10px;
+    padding: 30px 0;
+}
+.sec-g-top{
+    width: 100%;
+    text-align: center;
+}
+.sec-g-top img{
+    width: 380px;
+    padding: 20px ;
+}
+.sec-g-bom i{
+    color: gold;
+    font-size: 30px;
+    padding: 10px 0;
+}
+.sec-g-bom h1{
+    font-size: 50px;
+}
+.sec-g{
+    width: 100%;
+    text-align: center;
+    padding-top: 120px;
+}
+.sec-g h2{
+    color: cadetblue;
+    font-size: 40px;
+}
+.sec-g h1{
+    font-size: 50px;
+}
+.sec-h{
+    width: 100%;
+    display: flex;
+    margin: 50px 0;
+}
+.sec-h-one{
+    width: 25%;
+    background-color: rgb(171, 231, 233);
+    margin: 0 10px;
+}
+.sec-h-two{
+    width: 25%;
+    background-color: rgb(171, 231, 233);
+    margin: 0 10px;
+}
+.sec-h-three{
+    width: 25%;
+    background-color: rgb(171, 231, 233);
+    margin: 0 10px;
+}
+.sec-h-four{
+    width: 25%;
+    background-color: rgb(171, 231, 233);
+    margin: 0 10px;
+}
+.sec-j-one{
+    width: 100%;
+    text-align: center;
+}
+.sec-j-two{
+    width: 100%;
+    text-align: center;
+    padding: 25px 0;
+}
+.sec-j-one img{
+    width: 250px;
+  padding: 20px;
+  border-radius: 30px;
+}
+.sec-j-two i{
+    font-size: 25px;
+    padding: 10px 0;
+}
+.sec-k{
+    width: 100%;
+    text-align: center;
+    padding:  50px 0;
+}
+.sec-k h2{
+    color: cadetblue;
+    font-size: 40px;
+}
+.sec-k h1{
+    font-size: 50px;
+}
+.sec-l{
+    width: 100%;
+    padding: 50px 0;
+}
+.foo-a{
+    width: 100%;
+    display: flex;
+    background-color: #181d38;
+    color: white;
+    padding: 50px 0;
+}
+.foo-a-one{
+    width: 25%;
+    text-align: center;
+}
+.foo-a-two{
+    width: 25%;
+    text-align: center;
+}
+.foo-a-three{
+    width: 25%;
+    text-align: center;
+}
+.foo-a-four{
+    width: 25%;
+    text-align: center;
+}
+.foo-b{
+    width: 100%;
+    padding: 10px 0;
+}
+.foo-c{
+    width: 100%;
+    padding: 10px 0;
+}
+.foo-d{
+    width: 100%;
+    padding: 10px 0;
+}
+.foo-b h4{
+    display: inline;
+}
+.foo-c h4{
+    display: inline;
+}
+.foo-d h4{
+    display: inline;
+}
+.foo-a i{
+    font-size: 30px;
+    padding: 0 10px;
+}
+.foo-e{
+    width: 100%;
+    display: flex;
+}
+.foo-e-one{
+    width: 33%;
+}
+.foo-e-two{
+    width: 33%;
+}
+.foo-e-three{
+    width: 34%;
+}
+.foo-e img{
+    width: 100px;
+}
+
+.foo-f{
+    width: 100%;
+    display: flex;
+    margin: 20px 0;
+}
+.foo-f-one{
+    width: 33%;
+}
+.foo-f-two{
+    width: 33%;
+}
+.foo-f-three{
+    width: 34%;
+}
+.foo-f img{
+    width: 100px;
+}
+.foo-a-four input{
+    border: none;
+    padding: 10px;
+}
+.foo-a-four button{
+    border: none;
+    background-color: cadetblue;
+    color: white;
+    width: 100px;
+    height: 45px;
+}
+.foo-j{
+    width: 100%;
+    text-align: center;
+    background-color: #181d38;
+    color: white;
+    padding: 50px 0;
+}
+
+
+
